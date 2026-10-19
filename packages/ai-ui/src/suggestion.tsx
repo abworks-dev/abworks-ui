@@ -3,7 +3,7 @@
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/suggestion.tsx
 "use client"
 
-import { Button } from "@aboard/ui/core/button"
+import { Button } from "@abworks-dev/ui/core/button"
 import { cn } from "./utils"
 import type { ComponentProps, KeyboardEvent } from "react"
 import { useCallback } from "react"

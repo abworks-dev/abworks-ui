@@ -2,7 +2,7 @@
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/plan.tsx
 "use client"
 
-import { Button } from "@aboard/ui/core/button"
+import { Button } from "@abworks-dev/ui/core/button"
 import {
   Card,
   CardAction,
@@ -11,12 +11,12 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@aboard/ui/core/card"
+} from "@abworks-dev/ui/core/card"
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@aboard/ui/core/collapsible"
+} from "@abworks-dev/ui/core/collapsible"
 import { ChevronsUpDownIcon } from "lucide-react"
 import type { ComponentProps } from "react"
 import { createContext, useContext, useMemo } from "react"

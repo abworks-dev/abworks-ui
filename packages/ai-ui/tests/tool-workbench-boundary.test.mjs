@@ -23,9 +23,9 @@ test("second batch tool/workbench components are presentation-only", () => {
   }
 });
 
-test("second batch uses Aboard Base UI primitives", () => {
-  assert.match(read("code-diff"), /@aboard\/ui\/core\/button/);
-  assert.match(read("code-runner"), /@aboard\/ui\/core\/button/);
+test("second batch uses ABWorks Base UI primitives", () => {
+  assert.match(read("code-diff"), /@abworks-dev\/ui\/core\/button/);
+  assert.match(read("code-runner"), /@abworks-dev\/ui\/core\/button/);
 });
 
 test("second batch keeps execution and review decisions caller-owned", () => {

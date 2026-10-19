@@ -1,4 +1,4 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Web search  https://www.assistant-ui.com/elements/web-search
 // Caller-owned presentation only: the query and results are DTOs; no fetching happens here.

@@ -1,4 +1,4 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Tool timeline  https://www.assistant-ui.com/elements/tool-timeline
 // Caller-owned presentation only: timeline entries are DTOs.

@@ -90,7 +90,7 @@ test('Edge preserves compound variants, measured geometry and known upstream lim
   assert.match(source, /<animateMotion dur="2s" path=\{edgePath\} repeatCount="indefinite"/)
 })
 
-test('graph styling consumes Aboard tokens and preserves required engine CSS', () => {
+test('graph styling consumes ABWorks tokens and preserves required engine CSS', () => {
   const canvas = read('src/canvas.tsx')
   assert.match(canvas, /cn\("aui-graph", className\)/)
   assert.ok(canvas.indexOf('import "@xyflow/react/dist/style.css"') < canvas.indexOf('import "./styles/graph.css"'))

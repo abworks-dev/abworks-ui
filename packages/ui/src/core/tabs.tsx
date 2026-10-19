@@ -16,7 +16,7 @@ function Tabs({
     <TabsPrimitive.Root
       data-slot="tabs"
       data-orientation={orientation}
-      // Aboard deviation: upstream only sets data-orientation after destructuring;
+      // ABWorks deviation: upstream only sets data-orientation after destructuring;
       // pass orientation to Base UI too, preserving vertical keyboard navigation.
       orientation={orientation}
       className={cn(

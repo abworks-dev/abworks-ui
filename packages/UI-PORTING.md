@@ -1,6 +1,6 @@
 # Aboard UI 移植规范
 
-本文规范如何将第三方 React UI 组件移植到 `@aboard/ui` 和 `@aboard/ai-ui`，是仓库对源码来源、Base UI 适配、Aboard 样式、权威边界和验证的约定。
+本文规范如何将第三方 React UI 组件移植到 `@abworks-dev/ui` 和 `@abworks-dev/ai-ui`，是仓库对源码来源、Base UI 适配、Aboard 样式、权威边界和验证的约定。
 
 ## 1. 源码与来源追溯
 
@@ -16,8 +16,8 @@
 
 1. 阅读路径最近的 `AGENTS.md`、本文和包的来源记录。
 2. 明确上游原语依赖，以及每项依赖在 Aboard 中的准确归属。
-3. 核对 `@aboard/ui` 和 `@base-ui/react` 的公开导出与已安装类型定义；禁止猜测 Base UI 的 prop、part、事件、CSS 变量或 data attribute。
-4. 所需原语缺失时，先在 `@aboard/ui` 修复或明确该缺口范围。禁止在 `@aboard/ai-ui` 创建私有原语或简化替代方案。
+3. 核对 `@abworks-dev/ui` 和 `@base-ui/react` 的公开导出与已安装类型定义；禁止猜测 Base UI 的 prop、part、事件、CSS 变量或 data attribute。
+4. 所需原语缺失时，先在 `@abworks-dev/ui` 修复或明确该缺口范围。禁止在 `@abworks-dev/ai-ui` 创建私有原语或简化替代方案。
 5. 修改行为前，先取得类型检查、聚焦测试的基线；交互组件还要准备浏览器 smoke 路由。
 
 ## 3. 适配策略
@@ -36,7 +36,7 @@
 - 从目标原语实际 DOM 契约映射展开/关闭、选中、高亮、禁用和方向状态。不得假设 `data-state` 总能映射为 `data-open`。
 - 保留语义化 HTML、可访问名称、键盘导航、焦点返回、键入查找、Escape 处理和外部点击行为。
 - 在兼容的前提下保留上游 class 结构和变体意图。使用 Aboard 语义 Token 与逻辑属性替换原始颜色、字体、圆角、阴影和对方向敏感的硬编码偏移。
-- AI UI 没有独立的主题权威。组件消费 `@aboard/ui` Token，并保持与浅色/深色、RTL、窄屏布局及包的视觉主题作用域兼容。
+- AI UI 没有独立的主题权威。组件消费 `@abworks-dev/ui` Token，并保持与浅色/深色、RTL、窄屏布局及包的视觉主题作用域兼容。
 - 除非记录了有意的破坏性变更，否则保留复合组件名称和公开导出。
 
 ## 5. 权威与副作用

@@ -1,20 +1,20 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/message.tsx
-// Aboard adaptation: RuntimeMessage/MessagePart are normalized at the render boundary.
+// ABWorks adaptation: RuntimeMessage/MessagePart are normalized at the render boundary.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import {
   ButtonGroup,
   ButtonGroupText,
-} from "@aboard/ui/core/button-group";
+} from "@abworks-dev/ui/core/button-group";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@aboard/ui/core/tooltip";
+} from "@abworks-dev/ui/core/tooltip";
 import { cjk } from "@streamdown/cjk";
 import { cn } from "./utils";
 import { code } from "@streamdown/code";
@@ -35,9 +35,9 @@ import {
 import { Streamdown } from "streamdown";
 
 /**
- * Aboard keeps its transport message contract separate from AI SDK UIMessage.
+ * ABWorks keeps its transport message contract separate from AI SDK UIMessage.
  * `from` remains compatible with the official API, while `message` is an
- * Aboard-only convenience that renders runtime parts through the adapter below.
+ * ABWorks-only convenience that renders runtime parts through the adapter below.
  */
 export type MessageProps = HTMLAttributes<HTMLDivElement> & {
   from?: MessageRole;
@@ -349,7 +349,7 @@ export const MessageToolbar = ({
   </div>
 );
 
-/** Converts Aboard transport parts without exposing AI SDK UIMessage publicly. */
+/** Converts ABWorks transport parts without exposing AI SDK UIMessage publicly. */
 function RuntimeMessageContent({ message }: { message: RuntimeMessage }): ReactElement {
   return (
     <MessageContent>

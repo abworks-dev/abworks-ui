@@ -1,13 +1,13 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/voice-selector.tsx
-// Aboard adaptations: Base Nova/Base UI Dialog and Command; preview is callback-only.
+// ABWorks adaptations: Base Nova/Base UI Dialog and Command; preview is callback-only.
 "use client"
 
 import type { ComponentProps, ReactNode } from "react"
 import { createContext, useContext, useMemo, useState } from "react"
 import { CircleSmallIcon, MarsIcon, MarsStrokeIcon, NonBinaryIcon, PauseIcon, PlayIcon, TransgenderIcon, VenusAndMarsIcon, VenusIcon } from "lucide-react"
-import { Button, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, Dialog, DialogContent, DialogTitle, DialogTrigger, Spinner } from "@aboard/ui"
+import { Button, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, Dialog, DialogContent, DialogTitle, DialogTrigger, Spinner } from "@abworks-dev/ui"
 import { cn } from "./utils"
 
 interface VoiceSelectorContextValue { value?: string; setValue: (value?: string) => void; open: boolean; setOpen: (open: boolean) => void }

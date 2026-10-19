@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@aboard/ui";
-import type { ButtonProps } from "@aboard/ui";
+import { Button } from "@abworks-dev/ui";
+import type { ButtonProps } from "@abworks-dev/ui";
 import { cn } from "./utils";
 import type { ComponentProps, ReactNode } from "react";
 import { createContext, useContext, useMemo } from "react";

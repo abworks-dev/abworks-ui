@@ -1,11 +1,11 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Edit a sent message  https://www.assistant-ui.com/elements/edit-message
 // Caller-owned presentation only: the draft, discarded-reply count, and save/cancel are props/callbacks.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
-import { Textarea } from "@aboard/ui/core/textarea";
+import { Button } from "@abworks-dev/ui/core/button";
+import { Textarea } from "@abworks-dev/ui/core/textarea";
 import { cn } from "./utils";
 import type { ComponentProps } from "react";
 

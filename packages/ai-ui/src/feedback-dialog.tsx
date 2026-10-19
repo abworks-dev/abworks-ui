@@ -1,17 +1,17 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Feedback dialog  https://www.assistant-ui.com/elements/feedback-dialog
 // Caller-owned presentation only: open state, reason selection, and submit are props/callbacks.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@aboard/ui/core/dialog";
+} from "@abworks-dev/ui/core/dialog";
 import { ThumbsDownIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { ComponentProps, ReactNode } from "react";

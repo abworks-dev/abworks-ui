@@ -20,7 +20,7 @@
 - 注册表已有初步的 sources/task/shimmer/image 预览，但尚未达到验收要求：代码的导入/回调不完整，sources 生成代码缺少第二个来源，image 使用 1px fixture 和占位 alt，未强制执行时长控件的边界，尚无展开来源测试。
 
 ## 截至此时的验证
-- @aboard/ui 和 @aboard/ai-ui 类型检查在最近一次 Sources props 适配前通过。
+- @abworks-dev/ui 和 @abworks-dev/ai-ui 类型检查在最近一次 Sources props 适配前通过。
 - 站点类型检查在 provenance 重命名后通过。最近修改后需重跑（SourcesProps 现在使用实际的 Collapsible Props，且已恢复实时受控状态）。
 - 本批 AI 组件尚未进行生产构建/浏览器验收。此前的 ReUI 服务 pwsh-37（localhost4187）已过时。
 

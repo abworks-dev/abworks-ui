@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge, Collapsible, CollapsibleContent, CollapsibleTrigger } from "@aboard/ui";
+import { Badge, Collapsible, CollapsibleContent, CollapsibleTrigger } from "@abworks-dev/ui";
 import type { MessagePart } from "./message-types";
 import { CheckCircleIcon, ChevronDownIcon, CircleIcon, ClockIcon, WrenchIcon, XCircleIcon } from "lucide-react";
 import type { ComponentProps, ReactNode } from "react";

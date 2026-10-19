@@ -1,7 +1,7 @@
 // AI Elements — Apache-2.0
 // Copyright (c) 2025 Vercel, Inc.
 // Upstream: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/question.tsx
-// Aboard adaptation: @aboard/ui primitives, semantic tokens, and caller-owned callbacks.
+// ABWorks adaptation: @abworks-dev/ui primitives, semantic tokens, and caller-owned callbacks.
 "use client"
 
 import type {
@@ -13,8 +13,8 @@ import type {
 } from "react"
 import { createContext, useCallback, useContext, useMemo, useState } from "react"
 
-import { Button } from "@aboard/ui"
-import { Textarea } from "@aboard/ui"
+import { Button } from "@abworks-dev/ui"
+import { Textarea } from "@abworks-dev/ui"
 
 import { cn } from "./utils"
 

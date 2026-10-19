@@ -1,4 +1,4 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Computer use  https://www.assistant-ui.com/elements/computer-use
 // Caller-owned presentation only: the screen capture, cursor trail, and current action are DTOs.

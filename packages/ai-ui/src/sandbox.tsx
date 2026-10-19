@@ -1,6 +1,6 @@
 "use client";
 
-import { Collapsible, CollapsibleContent, CollapsibleTrigger, Tabs, TabsContent, TabsList, TabsTrigger } from "@aboard/ui";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger, Tabs, TabsContent, TabsList, TabsTrigger } from "@abworks-dev/ui";
 import { Code, ChevronDownIcon } from "lucide-react";
 import type { ComponentProps } from "react";
 import { cn } from "./utils";

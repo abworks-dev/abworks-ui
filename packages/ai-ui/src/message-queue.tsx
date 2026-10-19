@@ -1,10 +1,10 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Message queue  https://www.assistant-ui.com/elements/message-queue
 // Caller-owned presentation only: pending turns arrive as props; cancel is a callback.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import { XIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes, ReactNode } from "react";

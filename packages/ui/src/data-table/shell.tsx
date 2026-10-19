@@ -5,7 +5,7 @@ import { defaultDataTableLabels, type DataTableLabels } from './labels'
 import { Fragment } from 'react'
 // Specialized exception: this shell composes Base UI parts directly to keep two externally
 // positioned, keepMounted scrollbar gutters aligned with the sticky table header. Ordinary
-// scrolling uses @aboard/ui/core/scroll-area.
+// scrolling uses @abworks-dev/ui/core/scroll-area.
 import { ScrollArea } from '@base-ui/react/scroll-area'
 import {
   Table,

@@ -1,6 +1,6 @@
 // ReUI — MIT License; Copyright (c) 2025 Keenthemes Inc.
 // Upstream: https://github.com/keenthemes/reui/blob/8a2c701eaf95729f238274d5ce2555a5a8bd23e7/registry-reui/bases/base/reui/number-field.tsx
-// Aboard adaptations: Base UI 1.7.0, semantic tokens, data-slot markers, and lucide-react icons.
+// ABWorks adaptations: Base UI 1.7.0, semantic tokens, data-slot markers, and lucide-react icons.
 "use client"
 
 import { createContext, useContext, useId, type ReactNode } from "react"

@@ -1,5 +1,5 @@
 {
-  "name": "aboard-component-library",
+  "name": "abworks-component-library",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,9 +9,9 @@
     "pnpm": ">=11 <12"
   },
   "scripts": {
-    "build": "pnpm --filter @aboard/ui build && pnpm --filter @aboard/ai-ui build",
-    "test": "pnpm --filter @aboard/ui test && pnpm --filter @aboard/ai-ui test",
-    "typecheck": "pnpm --filter @aboard/ui typecheck && pnpm --filter @aboard/ai-ui typecheck",
+    "build": "pnpm --filter @abworks-dev/ui build && pnpm --filter @abworks-dev/ai-ui build",
+    "test": "pnpm --filter @abworks-dev/ui test && pnpm --filter @abworks-dev/ai-ui test",
+    "typecheck": "pnpm --filter @abworks-dev/ui typecheck && pnpm --filter @abworks-dev/ai-ui typecheck",
     "check": "pnpm run build && pnpm run test && pnpm run typecheck"
   },
   "devDependencies": {

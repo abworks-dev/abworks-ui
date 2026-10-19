@@ -35,7 +35,7 @@ importers:
 
   packages/ai-ui:
     dependencies:
-      '@aboard/ui':
+      '@abworks-dev/ui':
         specifier: workspace:*
         version: link:../ui
       '@streamdown/cjk':

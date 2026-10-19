@@ -3,16 +3,16 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/code-block.tsx
-// Local adaptation: @aboard/ui Base UI primitives and local cn utility.
+// Local adaptation: @abworks-dev/ui Base UI primitives and local cn utility.
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@aboard/ui/core/select";
+} from "@abworks-dev/ui/core/select";
 import { cn } from "./utils";
 import { CheckIcon, CopyIcon } from "lucide-react";
 import type { ComponentProps, CSSProperties, HTMLAttributes } from "react";

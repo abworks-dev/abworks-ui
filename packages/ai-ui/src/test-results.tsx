@@ -1,7 +1,7 @@
 "use client";
 
-import { Badge } from "@aboard/ui/core/badge";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@aboard/ui/core/collapsible";
+import { Badge } from "@abworks-dev/ui/core/badge";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@abworks-dev/ui/core/collapsible";
 import { cn } from "./utils";
 import {
   CheckCircle2Icon,

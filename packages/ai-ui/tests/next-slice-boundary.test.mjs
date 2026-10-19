@@ -13,7 +13,7 @@ const read = name => readFileSync(new URL(`../src/${name}.tsx`, import.meta.url)
 test('migration slice is runtime-neutral and uses shared primitives', () => {
   for (const name of names) {
     const source = read(name)
-    assert.match(source, /@aboard\/ui\/core|\.\/utils/)
+    assert.match(source, /@abworks-dev\/ui\/core|\.\/utils/)
     assert.doesNotMatch(source, /@repo\/shadcn|@radix|cmdk|\basChild\b|data-state|fetch\(|readFile|models\.dev/)
   }
 })

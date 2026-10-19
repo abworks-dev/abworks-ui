@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge } from "@aboard/ui/core/badge";
+import { Badge } from "@abworks-dev/ui/core/badge";
 import { cn } from "./utils";
 import { ArrowRightIcon, MinusIcon, PackageIcon, PlusIcon } from "lucide-react";
 import type { HTMLAttributes } from "react";

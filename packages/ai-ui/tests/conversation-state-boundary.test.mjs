@@ -25,13 +25,13 @@ test("first batch conversation-state components are presentation-only", () => {
   }
 });
 
-test("first batch uses Aboard Base UI primitives, not local reinventions", () => {
-  assert.match(read("message-error"), /@aboard\/ui\/core\/alert/);
-  assert.match(read("message-error"), /@aboard\/ui\/core\/button/);
-  assert.match(read("message-queue"), /@aboard\/ui\/core\/button/);
-  assert.match(read("edit-message"), /@aboard\/ui\/core\/textarea/);
-  assert.match(read("feedback-dialog"), /@aboard\/ui\/core\/dialog/);
-  assert.match(read("streaming-text"), /@aboard\/ui\/core\/spinner/);
+test("first batch uses ABWorks Base UI primitives, not local reinventions", () => {
+  assert.match(read("message-error"), /@abworks-dev\/ui\/core\/alert/);
+  assert.match(read("message-error"), /@abworks-dev\/ui\/core\/button/);
+  assert.match(read("message-queue"), /@abworks-dev\/ui\/core\/button/);
+  assert.match(read("edit-message"), /@abworks-dev\/ui\/core\/textarea/);
+  assert.match(read("feedback-dialog"), /@abworks-dev\/ui\/core\/dialog/);
+  assert.match(read("streaming-text"), /@abworks-dev\/ui\/core\/spinner/);
 });
 
 test("caller-owned callbacks are preserved for side-effectful actions", () => {

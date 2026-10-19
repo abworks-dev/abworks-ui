@@ -21,7 +21,7 @@ function Checkbox({ className, ...props }: CheckboxPrimitive.Root.Props) {
         data-slot="checkbox-indicator"
         className="cn-checkbox-indicator group/indicator grid place-content-center text-current transition-none"
       >
-        {/* Aboard deviation: resolve upstream's Nova lucide Check placeholder;
+        {/* ABWorks deviation: resolve upstream's Nova lucide Check placeholder;
             retain the existing mixed-state dash instead of rendering Check for both states. */}
         <Check aria-hidden="true" className="group-data-[indeterminate]/indicator:hidden" />
         <Minus aria-hidden="true" className="hidden group-data-[indeterminate]/indicator:block" />

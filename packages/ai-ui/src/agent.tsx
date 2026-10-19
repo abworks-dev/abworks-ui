@@ -1,7 +1,7 @@
 "use client";
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@aboard/ui/core/accordion";
-import { Badge } from "@aboard/ui/core/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@abworks-dev/ui/core/accordion";
+import { Badge } from "@abworks-dev/ui/core/badge";
 import { cn } from "./utils";
 import type { Tool } from "ai";
 import { BotIcon } from "lucide-react";

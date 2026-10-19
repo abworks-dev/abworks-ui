@@ -1,6 +1,6 @@
 "use client";
 
-import { Avatar, AvatarFallback, Button, Collapsible, CollapsibleContent, CollapsibleTrigger } from "@aboard/ui";
+import { Avatar, AvatarFallback, Button, Collapsible, CollapsibleContent, CollapsibleTrigger } from "@abworks-dev/ui";
 import { CheckIcon, CopyIcon, FileIcon, GitCommitIcon, MinusIcon, PlusIcon } from "lucide-react";
 import type { ComponentProps, HTMLAttributes } from "react";
 import { useEffect, useState } from "react";

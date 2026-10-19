@@ -1,7 +1,7 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/transcription.tsx
-// Aboard adaptations: local controllable state and DTO-only segment contract.
+// ABWorks adaptations: local controllable state and DTO-only segment contract.
 "use client"
 
 import type { ComponentProps, ReactNode, MouseEvent } from "react"

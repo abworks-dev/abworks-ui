@@ -23,10 +23,10 @@ test('publish overrides preserve source development and cover every public entry
 })
 
 test('standalone theme is opt-in and provides scoped light/dark tokens', () => {
-  assert.doesNotMatch(read('src/styles/index.css'), /default\.css|aboard-theme/)
+  assert.doesNotMatch(read('src/styles/index.css'), /default\.css|abworks-theme/)
   const css = read('src/styles/default.css')
   for (const imported of ['tailwindcss', 'tw-animate-css', 'shadcn/tailwind.css', './index.css']) assert.ok(css.includes(`@import '${imported}'`))
-  assert.match(css, /\.aboard-theme\.dark/)
+  assert.match(css, /\.abworks-theme\.dark/)
   for (const token of ['background', 'foreground', 'card', 'popover', 'primary', 'destructive', 'border', 'input', 'ring', 'sidebar', 'chart-5']) assert.ok(css.includes(`--${token}:`))
 })
 

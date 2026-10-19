@@ -14,7 +14,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@aboard/ui/core/card"
+} from "@abworks-dev/ui/core/card"
 import type { ComponentProps } from "react"
 import { cn } from "./utils"
 

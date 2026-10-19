@@ -1,13 +1,13 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Elicitation form  https://www.assistant-ui.com/elements/elicitation-form
 // Caller-owned presentation only: fields and submit are caller-owned; nothing is sent here.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
-import { Input } from "@aboard/ui/core/input";
-import { Label } from "@aboard/ui/core/label";
-import { Textarea } from "@aboard/ui/core/textarea";
+import { Button } from "@abworks-dev/ui/core/button";
+import { Input } from "@abworks-dev/ui/core/input";
+import { Label } from "@abworks-dev/ui/core/label";
+import { Textarea } from "@abworks-dev/ui/core/textarea";
 import { cn } from "./utils";
 import type { HTMLAttributes, ReactNode } from "react";
 import { useCallback, useState } from "react";

@@ -1,11 +1,11 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Code diff  https://www.assistant-ui.com/elements/code-diff
 //   - Reviewable diff  https://www.assistant-ui.com/elements/reviewable-diff
 // Caller-owned presentation only: diff hunks are DTOs; review decisions are callbacks.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import { CheckIcon, MinusIcon, PlusIcon, XIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes } from "react";

@@ -1,7 +1,7 @@
 /*
- * Canonical @aboard/ai-ui stylesheet entry.
+ * Canonical @abworks-dev/ai-ui stylesheet entry.
  *
- * AI surfaces consume semantic theme tokens from @aboard/ui; the only local
+ * AI surfaces consume semantic theme tokens from @abworks-dev/ui; the only local
  * rule below is a presentation animation, not a separate theme authority.
  */
 @source '../';

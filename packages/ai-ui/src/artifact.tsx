@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@aboard/ui/core/tooltip";
+import { Button } from "@abworks-dev/ui/core/button";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@abworks-dev/ui/core/tooltip";
 import { cn } from "./utils";
 import type { LucideIcon } from "lucide-react";
 import { XIcon } from "lucide-react";

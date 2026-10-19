@@ -1,4 +1,4 @@
-# Aboard UI contributor rules
+# ABWorks UI contributor rules
 
 - This repository owns standalone presentation components, not Nexus runtime/Host/contracts.
 - Keep upstream source records and licenses intact; see packages/UI-PORTING.md and scoped rules.

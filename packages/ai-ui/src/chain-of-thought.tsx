@@ -2,12 +2,12 @@
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/chain-of-thought.tsx
 "use client"
 
-import { Badge } from "@aboard/ui/core/badge"
+import { Badge } from "@abworks-dev/ui/core/badge"
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@aboard/ui/core/collapsible"
+} from "@abworks-dev/ui/core/collapsible"
 import type { LucideIcon } from "lucide-react"
 import { BrainIcon, ChevronDownIcon, DotIcon } from "lucide-react"
 import type { ComponentProps, ReactNode } from "react"

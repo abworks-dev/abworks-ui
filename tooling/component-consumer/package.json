@@ -1,5 +1,5 @@
 {
-  "name": "aboard-external-consumer-check",
+  "name": "abworks-external-consumer-check",
   "private": true,
   "type": "module",
   "scripts": { "build": "tsc --noEmit && node build.mjs" },

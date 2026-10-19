@@ -7,7 +7,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@aboard/ui/core/collapsible"
+} from "@abworks-dev/ui/core/collapsible"
 import { cn } from "./utils"
 import { BookIcon, ChevronDownIcon } from "lucide-react"
 import type { ComponentProps } from "react"

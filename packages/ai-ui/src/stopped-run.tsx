@@ -1,10 +1,10 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Stopped run  https://www.assistant-ui.com/elements/stopped-run
 // Caller-owned presentation only: the partial answer is children; continuing is a callback.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import { RotateCwIcon, SquareIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes, ReactNode } from "react";

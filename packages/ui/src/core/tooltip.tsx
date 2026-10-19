@@ -12,8 +12,8 @@ import { Tooltip as TooltipPrimitive } from "@base-ui/react/tooltip"
 import { cn } from "../lib/cn"
 
 /**
- * Aboard adaptation: the pinned upstream leaves the popup without tooltip
- * semantics, so a tooltip is announced as a plain element. Aboard exposes the
+ * ABWorks adaptation: the pinned upstream leaves the popup without tooltip
+ * semantics, so a tooltip is announced as a plain element. ABWorks exposes the
  * popup as `role="tooltip"` and points the trigger at it through
  * `aria-describedby`.
  *

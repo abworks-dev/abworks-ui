@@ -1,10 +1,10 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Guardrail notice  https://www.assistant-ui.com/elements/guardrail-notice
 // Caller-owned presentation only: the refusal and nearest alternative are props.
 "use client";
 
-import { Alert, AlertDescription, AlertTitle } from "@aboard/ui/core/alert";
+import { Alert, AlertDescription, AlertTitle } from "@abworks-dev/ui/core/alert";
 import { ShieldAlertIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes, ReactNode } from "react";

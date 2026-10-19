@@ -49,9 +49,9 @@ test('single-choice options preserve radio selection and keyboard navigation sem
   assert.ok(option.indexOf('{...props}') < option.indexOf('onKeyDown={handleKeyDown}'))
 })
 
-test('Question uses Aboard primitives and provenance remains pinned', () => {
+test('Question uses ABWorks primitives and provenance remains pinned', () => {
   const source = read('question')
-  assert.match(source, /from "@aboard\/ui"/)
+  assert.match(source, /from "@abworks-dev\/ui"/)
   assert.doesNotMatch(source, /@radix|@repo\/shadcn-ui/)
   const sources = readFile('SOURCES.md')
   const packageJson = readFile('package.json')

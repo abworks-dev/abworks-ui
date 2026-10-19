@@ -1,7 +1,7 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/context.tsx
-// Aboard adaptations: Base Nova HoverCard/Progress and caller-provided cost DTOs replace upstream pricing calculation.
+// ABWorks adaptations: Base Nova HoverCard/Progress and caller-provided cost DTOs replace upstream pricing calculation.
 "use client";
 
 import {
@@ -10,7 +10,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
   Progress,
-} from "@aboard/ui";
+} from "@abworks-dev/ui";
 import type { LanguageModelUsage } from "ai";
 import type { ComponentProps } from "react";
 import { createContext, isValidElement, useContext, useMemo } from "react";

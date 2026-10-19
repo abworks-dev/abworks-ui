@@ -1,7 +1,7 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/model-selector.tsx
-// Aboard adaptations: Base Nova Dialog/Command; logos are caller-rendered local content and never construct external image URLs.
+// ABWorks adaptations: Base Nova Dialog/Command; logos are caller-rendered local content and never construct external image URLs.
 "use client";
 
 import {
@@ -18,7 +18,7 @@ import {
   DialogContent,
   DialogTitle,
   DialogTrigger,
-} from "@aboard/ui";
+} from "@abworks-dev/ui";
 import type { ComponentProps, ReactNode } from "react";
 import { cn } from "./utils";
 

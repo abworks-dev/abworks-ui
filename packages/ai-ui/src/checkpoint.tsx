@@ -1,7 +1,7 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/checkpoint.tsx
-// Aboard adaptations: Base Nova Button/Separator/Tooltip with Base UI render composition.
+// ABWorks adaptations: Base Nova Button/Separator/Tooltip with Base UI render composition.
 "use client";
 
 import {
@@ -10,8 +10,8 @@ import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@aboard/ui";
-import type { ButtonProps } from "@aboard/ui";
+} from "@abworks-dev/ui";
+import type { ButtonProps } from "@abworks-dev/ui";
 import { BookmarkIcon } from "lucide-react";
 import type { LucideProps } from "lucide-react";
 import type { ComponentProps } from "react";

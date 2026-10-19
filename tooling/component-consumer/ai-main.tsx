@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client'
-import { Message } from '@aboard/ai-ui/message'
-import type { RuntimeMessage } from '@aboard/ai-ui'
-import type * as CanvasExports from '@aboard/ai-ui/canvas'
+import { Message } from '@abworks-dev/ai-ui/message'
+import type { RuntimeMessage } from '@abworks-dev/ai-ui'
+import type * as CanvasExports from '@abworks-dev/ai-ui/canvas'
 export type OptionalGraphExports = typeof CanvasExports
 
 const message: RuntimeMessage = {

@@ -10,7 +10,7 @@ import { Toaster as Sonner, toast, type ToasterProps } from "sonner"
 
 /**
  * A Sonner toaster that keeps the upstream `theme` prop available without
- * requiring `next-themes`. Aboard defaults to the standard Sonner `system`
+ * requiring `next-themes`. ABWorks defaults to the standard Sonner `system`
  * theme; callers can pass `light`, `dark`, or `system` directly.
  */
 function Toaster({ theme = "system", closeButton = true, ...props }: ToasterProps) {

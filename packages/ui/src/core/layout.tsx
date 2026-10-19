@@ -1,6 +1,6 @@
-// Aboard-native layout primitives.
+// ABWorks-native layout primitives.
 //
-// These are not ReUI adaptations: they were written for Aboard and express the
+// These are not ReUI adaptations: they were written for ABWorks and express the
 // declarative layout contract documented under `(ui-system)/layout/stack-grid`.
 // They rely on the consumer's semantic theme tokens only (no `.style-nova`
 // scope), so they render the same inside and outside a Nova surface, and the

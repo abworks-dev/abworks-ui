@@ -1,4 +1,4 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Error state  https://www.assistant-ui.com/elements/error-state
 // Caller-owned presentation only: the error, retry intent, and message are props/callbacks.
@@ -9,8 +9,8 @@ import {
   AlertAction,
   AlertDescription,
   AlertTitle,
-} from "@aboard/ui/core/alert";
-import { Button } from "@aboard/ui/core/button";
+} from "@abworks-dev/ui/core/alert";
+import { Button } from "@abworks-dev/ui/core/button";
 import { RotateCwIcon, TriangleAlertIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes } from "react";

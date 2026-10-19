@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@aboard/ui/core/collapsible";
+import { Button } from "@abworks-dev/ui/core/button";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@abworks-dev/ui/core/collapsible";
 import { cn, useControllableState } from "./utils";
 import {
   AlertTriangleIcon,

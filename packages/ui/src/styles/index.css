@@ -1,5 +1,5 @@
 /*
- * Canonical @aboard/ui stylesheet entry.
+ * Canonical @abworks-dev/ui stylesheet entry.
  *
  * Importing this file loads the reviewed ReUI Nova base layer and registers the
  * package's component sources with Tailwind, so a consumer stylesheet never has

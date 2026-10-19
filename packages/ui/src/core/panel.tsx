@@ -1,4 +1,4 @@
-// Aboard-native review surface.
+// ABWorks-native review surface.
 //
 // Panel is the documented review-surface vocabulary (title, action rail,
 // content, footer). It deliberately composes the Card parts instead of owning a

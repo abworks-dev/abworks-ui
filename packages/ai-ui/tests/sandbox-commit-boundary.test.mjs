@@ -12,7 +12,7 @@ test('sandbox is a Base UI, read-only status surface', () => {
   assert.match(source, /isSandboxState/)
   assert.match(source, /accessibleTitle = .*Sandbox/)
   assert.match(source, /aria-label=.*accessibleTitle/)
-  assert.match(source, /@aboard\/ui/)
+  assert.match(source, /@abworks-dev\/ui/)
   assert.doesNotMatch(source, /@radix|cmdk|asChild|data-state|fetch\(|readFile|process\.env|navigator\./)
 })
 

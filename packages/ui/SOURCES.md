@@ -57,7 +57,7 @@
 - 起源：仓库自有的 Workbench data-table 机制，并非新引入的 ReUI DataGrid/TanStack 移植。历史外壳创建：`d48b5119f784d75b0ae1b2771b6f17a005b9955c`；共享控件：`53626739131a2458fc00897d3eb14512814728b7`。实际提取保留当前源码及既有分页修改；历史 commit 不是逐字节一致的基线。
 - 外部来源：不可用/不作声明。包拥有 `src/data-table` 下的外壳、工具栏、分页、批量操作、排序/列控件、过滤器、可见性和选择；Workbench 路径仍是轻量的 locale 适配器/重新导出。领域列/操作/变更和 ResourceViewToggle 仍归应用所有。
 - `authority-boundary`：标签/格式化器、状态和操作回调归调用方所有；包内没有应用 i18n、路由、传输或持久化。`primitive-adaptation`：保留现有 Base UI 滚动条组合和 Aboard 控件；Tailwind 注册提取后的源码目录。
-- 入口：`@aboard/ui/data-table` 和根导出。不宣称新增表格引擎、虚拟滚动、单元格编辑或高级网格能力。
+- 入口：`@abworks-dev/ui/data-table` 和根导出。不宣称新增表格引擎、虚拟滚动、单元格编辑或高级网格能力。
 - `bug-fix`：共享批量工具栏现在使用 React useId 建立唯一的 aria-describedby 关联；分面显示有效的零计数，同时省略缺失值。直接挂载回归测试可复现两项缺陷，并在修复后通过。
 - 验证：最终修复后 UI/AI UI 类型检查通过；Workbench 类型检查在较早的集成阶段通过。共享/直接包提取测试 14 项通过；最终集成的 Tree/AI/DataTable/Users/Tasks 测试运行在 5 个套件中通过 23 项测试。最终共享浏览器矩阵通过 5 个用例，覆盖选择、分页、搜索/空状态、响应式浅色/深色和 RTL。jsdom 调用方测试中仍有既有 ScrollArea act 警告；准确匹配的既有浏览器 DevTools shim 警告以注解记录，而非视为组件失败。
 

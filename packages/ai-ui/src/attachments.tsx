@@ -2,14 +2,14 @@
 
 // Apache-2.0 (upstream repository)
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/attachments.tsx
-// Aboard adaptations: @aboard/ui Button/HoverCard and local cn; AI SDK is type-only DTO input.
+// ABWorks adaptations: @abworks-dev/ui Button/HoverCard and local cn; AI SDK is type-only DTO input.
 
 import {
   Button,
   HoverCard,
   HoverCardContent,
   HoverCardTrigger
-} from "@aboard/ui"
+} from "@abworks-dev/ui"
 import type { FileUIPart, SourceDocumentUIPart } from "ai"
 import {
   FileTextIcon,

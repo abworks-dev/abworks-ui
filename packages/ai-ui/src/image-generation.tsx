@@ -1,10 +1,10 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Image generation  https://www.assistant-ui.com/elements/image-generation
 // Caller-owned presentation only: the generated image, status, and prompt are DTOs.
 "use client";
 
-import { Spinner } from "@aboard/ui/core/spinner";
+import { Spinner } from "@abworks-dev/ui/core/spinner";
 import { ImageIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes } from "react";

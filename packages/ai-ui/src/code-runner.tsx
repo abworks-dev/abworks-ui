@@ -1,10 +1,10 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Code runner  https://www.assistant-ui.com/elements/code-runner
 // Caller-owned presentation only: the snippet, run intent, and output are props/callbacks.
 "use client";
 
-import { Button } from "@aboard/ui/core/button";
+import { Button } from "@abworks-dev/ui/core/button";
 import { PlayIcon, RotateCwIcon } from "lucide-react";
 import { cn } from "./utils";
 import type { HTMLAttributes, ReactNode } from "react";

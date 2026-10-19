@@ -1,22 +1,22 @@
 // Resolve every barrel as declarations too, without forcing all runtime modules into this smoke bundle.
-import type * as RootExports from '@aboard/ui'
-import type * as CoreExports from '@aboard/ui/core'
-import type * as TableExports from '@aboard/ui/data-table'
-import type * as TreeFixtureExports from '@aboard/ui/testing/tree-fixture'
+import type * as RootExports from '@abworks-dev/ui'
+import type * as CoreExports from '@abworks-dev/ui/core'
+import type * as TableExports from '@abworks-dev/ui/data-table'
+import type * as TreeFixtureExports from '@abworks-dev/ui/testing/tree-fixture'
 export type PublicBarrels = [typeof RootExports, typeof CoreExports, typeof TableExports, typeof TreeFixtureExports]
 import { useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Button } from '@aboard/ui/core/button'
-import { Input } from '@aboard/ui/core/input'
-import { Label } from '@aboard/ui/core/label'
-import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription } from '@aboard/ui/core/dialog'
-import { Tooltip, TooltipProvider, TooltipTrigger, TooltipContent } from '@aboard/ui/core/tooltip'
+import { Button } from '@abworks-dev/ui/core/button'
+import { Input } from '@abworks-dev/ui/core/input'
+import { Label } from '@abworks-dev/ui/core/label'
+import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription } from '@abworks-dev/ui/core/dialog'
+import { Tooltip, TooltipProvider, TooltipTrigger, TooltipContent } from '@abworks-dev/ui/core/tooltip'
 
 function App() {
   const [count, setCount] = useState(0)
   const [submitted, setSubmitted] = useState('')
   return <main style={{ padding: 32, maxWidth: 640 }}>
-    <h1>Aboard archive consumer</h1>
+    <h1>ABWorks archive consumer</h1>
     <Button onClick={() => setCount(count + 1)}>Count {count}</Button>
     <form onSubmit={event => {
       event.preventDefault()

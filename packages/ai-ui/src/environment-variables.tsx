@@ -1,8 +1,8 @@
 "use client";
 
-import { Badge } from "@aboard/ui/core/badge";
-import { Button } from "@aboard/ui/core/button";
-import { Switch } from "@aboard/ui/core/switch";
+import { Badge } from "@abworks-dev/ui/core/badge";
+import { Button } from "@abworks-dev/ui/core/button";
+import { Switch } from "@abworks-dev/ui/core/switch";
 import { cn } from "./utils";
 import { CheckIcon, CopyIcon, EyeIcon, EyeOffIcon } from "lucide-react";
 import type { ComponentProps, HTMLAttributes } from "react";

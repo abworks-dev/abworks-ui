@@ -1,7 +1,7 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/queue.tsx
-// Aboard adaptations: Base Nova Button/Collapsible and the existing @aboard/ui ScrollArea preserve the queue-list API and scrolling behavior.
+// ABWorks adaptations: Base Nova Button/Collapsible and the existing @abworks-dev/ui ScrollArea preserve the queue-list API and scrolling behavior.
 "use client";
 
 import {
@@ -10,7 +10,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
   ScrollArea,
-} from "@aboard/ui";
+} from "@abworks-dev/ui";
 import { ChevronDownIcon, PaperclipIcon } from "lucide-react";
 import type { ComponentProps, ReactNode } from "react";
 import { cn } from "./utils";

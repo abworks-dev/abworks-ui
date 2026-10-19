@@ -1,12 +1,12 @@
 // AI Elements - Apache-2.0
 // Copyright (c) 2025 Vercel
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/audio-player.tsx
-// Aboard adaptations: native audio only; source and media lifecycle remain caller-owned.
+// ABWorks adaptations: native audio only; source and media lifecycle remain caller-owned.
 "use client"
 
 import type { ComponentProps, CSSProperties, ReactNode, ChangeEvent } from "react"
 import { createContext, useContext, useMemo, useRef, useState } from "react"
-import { Button, ButtonGroup, ButtonGroupText } from "@aboard/ui"
+import { Button, ButtonGroup, ButtonGroupText } from "@abworks-dev/ui"
 import { PauseIcon, PlayIcon, RotateCcwIcon, RotateCwIcon, Volume2Icon, VolumeXIcon } from "lucide-react"
 import { cn } from "./utils"
 

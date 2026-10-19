@@ -1,4 +1,4 @@
-// Aboard-native page skeleton.
+// ABWorks-native page skeleton.
 //
 // Page Regions encodes the documented region order and semantics: a header
 // banner, a main column, an optional supporting aside, and a caller-owned

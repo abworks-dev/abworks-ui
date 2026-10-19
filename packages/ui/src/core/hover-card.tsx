@@ -1,6 +1,6 @@
 "use client"
 
-// Inspired by ReUI; built as an Aboard adapter around Base UI Popover.
+// Inspired by ReUI; built as an ABWorks adapter around Base UI Popover.
 // Base UI does not provide a HoverCard primitive in this version.
 
 import * as React from "react"

@@ -1,6 +1,6 @@
 "use client";
 
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@aboard/ui/core/collapsible";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@abworks-dev/ui/core/collapsible";
 import { cn } from "./utils";
 import {
   ChevronRightIcon,

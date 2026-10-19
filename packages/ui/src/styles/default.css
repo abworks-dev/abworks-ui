@@ -1,4 +1,4 @@
-/* Explicit standalone opt-in. Existing @aboard/ui/styles consumers are unchanged. */
+/* Explicit standalone opt-in. Existing @abworks-dev/ui/styles consumers are unchanged. */
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
@@ -46,7 +46,7 @@
 }
 
 @layer base {
-  .aboard-theme {
+  .abworks-theme {
     color-scheme: light;
     --radius: 0.625rem;
     --background: oklch(1 0 0);
@@ -84,7 +84,7 @@
     background: var(--background);
     color: var(--foreground);
   }
-  .aboard-theme.dark, .dark .aboard-theme {
+  .abworks-theme.dark, .dark .abworks-theme {
     color-scheme: dark;
     --background: oklch(0.145 0 0);
     --foreground: oklch(0.985 0 0);

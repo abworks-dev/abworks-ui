@@ -1,4 +1,4 @@
-// Aboard pattern reference - not a source copy.
+// ABWorks pattern reference - not a source copy.
 // Visual/interaction semantics reference assistant-ui Elements:
 //   - Streaming text  https://www.assistant-ui.com/elements/streaming-text
 //   - Thinking indicator  https://www.assistant-ui.com/elements/thinking-indicator
@@ -6,7 +6,7 @@
 // Caller-owned presentation only: all state (streaming, elapsed, activity) arrives via props.
 "use client";
 
-import { Spinner } from "@aboard/ui/core/spinner";
+import { Spinner } from "@abworks-dev/ui/core/spinner";
 import { cn } from "./utils";
 import type { HTMLAttributes } from "react";
 

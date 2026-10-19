@@ -24,11 +24,11 @@ test("third batch permission/knowledge components are presentation-only", () => 
   }
 });
 
-test("third batch uses Aboard Base UI primitives", () => {
-  assert.match(read("permission-grant"), /@aboard\/ui\/core\/button/);
-  assert.match(read("guardrail-notice"), /@aboard\/ui\/core\/alert/);
-  assert.match(read("elicitation-form"), /@aboard\/ui\/core\/input/);
-  assert.match(read("elicitation-form"), /@aboard\/ui\/core\/textarea/);
+test("third batch uses ABWorks Base UI primitives", () => {
+  assert.match(read("permission-grant"), /@abworks-dev\/ui\/core\/button/);
+  assert.match(read("guardrail-notice"), /@abworks-dev\/ui\/core\/alert/);
+  assert.match(read("elicitation-form"), /@abworks-dev\/ui\/core\/input/);
+  assert.match(read("elicitation-form"), /@abworks-dev\/ui\/core\/textarea/);
 });
 
 test("permission grant and elicitation submit remain caller-owned callbacks", () => {

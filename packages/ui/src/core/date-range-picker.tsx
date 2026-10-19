@@ -2,7 +2,7 @@
 
 // ReUI — MIT License; Copyright (c) 2025 Keenthemes Inc.
 // Upstream reference: https://github.com/keenthemes/reui/blob/8a2c701eaf95729f238274d5ce2555a5a8bd23e7/registry-reui/bases/base/reui/date-selector.tsx
-// Aboard adaptation: compact Base UI composition reusing the shared Calendar, Popover, and Button.
+// ABWorks adaptation: compact Base UI composition reusing the shared Calendar, Popover, and Button.
 
 import * as React from "react"
 import { CalendarDaysIcon, XIcon } from "lucide-react"

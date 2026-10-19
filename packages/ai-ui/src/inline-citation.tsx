@@ -3,8 +3,8 @@
 // Apache-2.0 (upstream repository)
 // Source: https://github.com/vercel/ai-elements/blob/6a9d5b1822ffb10bba4bd97175f01edd7d8651cd/packages/elements/src/inline-citation.tsx
 
-import { Badge } from "@aboard/ui/core/badge"
-import { HoverCard, HoverCardContent, HoverCardTrigger } from "@aboard/ui/core/hover-card"
+import { Badge } from "@abworks-dev/ui/core/badge"
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@abworks-dev/ui/core/hover-card"
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react"
 import type { ComponentProps } from "react"
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from "react"
