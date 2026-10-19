@@ -1,0 +1,7 @@
+// ReUI — MIT License; Copyright (c) 2025 Keenthemes Inc.
+// Upstream: https://github.com/keenthemes/reui/blob/8a2c701eaf95729f238274d5ce2555a5a8bd23e7/registry/bases/base/ui/separator.tsx
+"use client"
+import { Separator as SeparatorPrimitive } from "@base-ui/react/separator"
+import { cn } from "../lib/cn"
+function Separator({ className, orientation = "horizontal", ...props }: SeparatorPrimitive.Props) { return <SeparatorPrimitive data-slot="separator" orientation={orientation} className={cn("shrink-0 bg-border data-horizontal:h-px data-horizontal:w-full data-vertical:w-px data-vertical:self-stretch", className)} {...props} /> }
+export { Separator }

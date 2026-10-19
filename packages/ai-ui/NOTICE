@@ -1,0 +1,13 @@
+@aboard/ai-ui contains adapted presentation components from AI Elements.
+Copyright 2023 Vercel, Inc. Existing file notices also credit Copyright (c) 2025 Vercel.
+Upstream: https://github.com/vercel/ai-elements
+Fixed revision: 6a9d5b1822ffb10bba4bd97175f01edd7d8651cd
+License: Apache-2.0; see LICENSE.
+
+Aboard changes include Base UI primitives, semantic tokens, presentation-only
+message types and caller-owned callbacks rather than runtime authority.
+Detailed component adaptations are recorded in SOURCES.md.
+
+MemoryChips and ArtifactCard contain MIT-licensed assistant-ui adaptations.
+Copyright (c) 2026 AgentbaseAI Inc. The complete MIT notice is in SOURCES.md.
+Dependencies retain their own licenses; they are linked, not bundled here.

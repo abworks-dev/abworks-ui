@@ -1,0 +1,27 @@
+{
+  "name": "aboard-component-library",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24 <25",
+    "pnpm": ">=11 <12"
+  },
+  "scripts": {
+    "build": "pnpm --filter @aboard/ui build && pnpm --filter @aboard/ai-ui build",
+    "test": "pnpm --filter @aboard/ui test && pnpm --filter @aboard/ai-ui test",
+    "typecheck": "pnpm --filter @aboard/ui typecheck && pnpm --filter @aboard/ai-ui typecheck",
+    "check": "pnpm run build && pnpm run test && pnpm run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "@types/node": "26.2.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwindcss": "4.3.3",
+    "@playwright/test": "1.62.1"
+  }
+}

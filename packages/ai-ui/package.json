@@ -1,0 +1,442 @@
+{
+  "name": "@aboard/ai-ui",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles": "./src/styles/index.css",
+    "./conversation": "./src/conversation.tsx",
+    "./message": "./src/message.tsx",
+    "./prompt-input": "./src/prompt-input.tsx",
+    "./tool": "./src/tool.tsx",
+    "./confirmation": "./src/confirmation.tsx",
+    "./attachments": "./src/attachments.tsx",
+    "./sources": "./src/provenance.ts",
+    "./sources-ui": "./src/sources.tsx",
+    "./task": "./src/task.tsx",
+    "./image": "./src/image.tsx",
+    "./shimmer": "./src/shimmer.tsx",
+    "./plan": "./src/plan.tsx",
+    "./reasoning": "./src/reasoning.tsx",
+    "./suggestion": "./src/suggestion.tsx",
+    "./chain-of-thought": "./src/chain-of-thought.tsx",
+    "./code-block": "./src/code-block.tsx",
+    "./inline-citation": "./src/inline-citation.tsx",
+    "./checkpoint": "./src/checkpoint.tsx",
+    "./context": "./src/context.tsx",
+    "./queue": "./src/queue.tsx",
+    "./model-selector": "./src/model-selector.tsx",
+    "./agent": "./src/agent.tsx",
+    "./artifact": "./src/artifact.tsx",
+    "./environment-variables": "./src/environment-variables.tsx",
+    "./file-tree": "./src/file-tree.tsx",
+    "./package-info": "./src/package-info.tsx",
+    "./schema-display": "./src/schema-display.tsx",
+    "./snippet": "./src/snippet.tsx",
+    "./stack-trace": "./src/stack-trace.tsx",
+    "./terminal": "./src/terminal.tsx",
+    "./test-results": "./src/test-results.tsx",
+    "./audio-player": "./src/audio-player.tsx",
+    "./transcription": "./src/transcription.tsx",
+    "./voice-selector": "./src/voice-selector.tsx",
+    "./sandbox": "./src/sandbox.tsx",
+    "./commit": "./src/commit.tsx",
+    "./streaming-text": "./src/streaming-text.tsx",
+    "./message-error": "./src/message-error.tsx",
+    "./message-queue": "./src/message-queue.tsx",
+    "./edit-message": "./src/edit-message.tsx",
+    "./feedback-dialog": "./src/feedback-dialog.tsx",
+    "./stopped-run": "./src/stopped-run.tsx",
+    "./code-diff": "./src/code-diff.tsx",
+    "./tool-timeline": "./src/tool-timeline.tsx",
+    "./code-runner": "./src/code-runner.tsx",
+    "./computer-use": "./src/computer-use.tsx",
+    "./permission-grant": "./src/permission-grant.tsx",
+    "./guardrail-notice": "./src/guardrail-notice.tsx",
+    "./elicitation-form": "./src/elicitation-form.tsx",
+    "./web-search": "./src/web-search.tsx",
+    "./image-generation": "./src/image-generation.tsx",
+    "./question": "./src/question.tsx",
+    "./memory-chips": "./src/memory-chips.tsx",
+    "./artifact-card": "./src/artifact-card.tsx",
+    "./canvas": "./src/canvas.tsx",
+    "./connection": "./src/connection.tsx",
+    "./controls": "./src/controls.tsx",
+    "./edge": "./src/edge.tsx",
+    "./panel": "./src/panel.tsx",
+    "./toolbar": "./src/toolbar.tsx",
+    "./node": "./src/node.tsx",
+    "./message-types": "./src/message-types.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node ../../tooling/component-library/build.mjs .",
+    "prepack": "pnpm run build"
+  },
+  "dependencies": {
+    "@aboard/ui": "workspace:*",
+    "@types/node": "24.13.3",
+    "@types/json-schema": "7.0.15",
+    "type-fest": "4.41.0",
+    "@streamdown/cjk": "1.0.2",
+    "@streamdown/code": "1.1.0",
+    "@streamdown/math": "1.0.2",
+    "@streamdown/mermaid": "1.0.2",
+    "@xyflow/react": "12.10.0",
+    "ai": "6.0.105",
+    "clsx": "2.1.1",
+    "lucide-react": "1.33.0",
+    "motion": "12.26.2",
+    "shiki": "^3.23.0",
+    "streamdown": "2.4.0",
+    "tailwind-merge": "3.6.0",
+    "use-stick-to-bottom": "1.1.3"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "license": "Apache-2.0",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "exports": {
+      ".": {
+        "types": "./dist/src/index.d.ts",
+        "import": "./dist/src/index.js",
+        "default": "./dist/src/index.js"
+      },
+      "./styles": "./dist/src/styles/index.css",
+      "./conversation": {
+        "types": "./dist/src/conversation.d.ts",
+        "import": "./dist/src/conversation.js",
+        "default": "./dist/src/conversation.js"
+      },
+      "./message": {
+        "types": "./dist/src/message.d.ts",
+        "import": "./dist/src/message.js",
+        "default": "./dist/src/message.js"
+      },
+      "./prompt-input": {
+        "types": "./dist/src/prompt-input.d.ts",
+        "import": "./dist/src/prompt-input.js",
+        "default": "./dist/src/prompt-input.js"
+      },
+      "./tool": {
+        "types": "./dist/src/tool.d.ts",
+        "import": "./dist/src/tool.js",
+        "default": "./dist/src/tool.js"
+      },
+      "./confirmation": {
+        "types": "./dist/src/confirmation.d.ts",
+        "import": "./dist/src/confirmation.js",
+        "default": "./dist/src/confirmation.js"
+      },
+      "./attachments": {
+        "types": "./dist/src/attachments.d.ts",
+        "import": "./dist/src/attachments.js",
+        "default": "./dist/src/attachments.js"
+      },
+      "./sources": {
+        "types": "./dist/src/provenance.d.ts",
+        "import": "./dist/src/provenance.js",
+        "default": "./dist/src/provenance.js"
+      },
+      "./sources-ui": {
+        "types": "./dist/src/sources.d.ts",
+        "import": "./dist/src/sources.js",
+        "default": "./dist/src/sources.js"
+      },
+      "./task": {
+        "types": "./dist/src/task.d.ts",
+        "import": "./dist/src/task.js",
+        "default": "./dist/src/task.js"
+      },
+      "./image": {
+        "types": "./dist/src/image.d.ts",
+        "import": "./dist/src/image.js",
+        "default": "./dist/src/image.js"
+      },
+      "./shimmer": {
+        "types": "./dist/src/shimmer.d.ts",
+        "import": "./dist/src/shimmer.js",
+        "default": "./dist/src/shimmer.js"
+      },
+      "./plan": {
+        "types": "./dist/src/plan.d.ts",
+        "import": "./dist/src/plan.js",
+        "default": "./dist/src/plan.js"
+      },
+      "./reasoning": {
+        "types": "./dist/src/reasoning.d.ts",
+        "import": "./dist/src/reasoning.js",
+        "default": "./dist/src/reasoning.js"
+      },
+      "./suggestion": {
+        "types": "./dist/src/suggestion.d.ts",
+        "import": "./dist/src/suggestion.js",
+        "default": "./dist/src/suggestion.js"
+      },
+      "./chain-of-thought": {
+        "types": "./dist/src/chain-of-thought.d.ts",
+        "import": "./dist/src/chain-of-thought.js",
+        "default": "./dist/src/chain-of-thought.js"
+      },
+      "./code-block": {
+        "types": "./dist/src/code-block.d.ts",
+        "import": "./dist/src/code-block.js",
+        "default": "./dist/src/code-block.js"
+      },
+      "./inline-citation": {
+        "types": "./dist/src/inline-citation.d.ts",
+        "import": "./dist/src/inline-citation.js",
+        "default": "./dist/src/inline-citation.js"
+      },
+      "./checkpoint": {
+        "types": "./dist/src/checkpoint.d.ts",
+        "import": "./dist/src/checkpoint.js",
+        "default": "./dist/src/checkpoint.js"
+      },
+      "./context": {
+        "types": "./dist/src/context.d.ts",
+        "import": "./dist/src/context.js",
+        "default": "./dist/src/context.js"
+      },
+      "./queue": {
+        "types": "./dist/src/queue.d.ts",
+        "import": "./dist/src/queue.js",
+        "default": "./dist/src/queue.js"
+      },
+      "./model-selector": {
+        "types": "./dist/src/model-selector.d.ts",
+        "import": "./dist/src/model-selector.js",
+        "default": "./dist/src/model-selector.js"
+      },
+      "./agent": {
+        "types": "./dist/src/agent.d.ts",
+        "import": "./dist/src/agent.js",
+        "default": "./dist/src/agent.js"
+      },
+      "./artifact": {
+        "types": "./dist/src/artifact.d.ts",
+        "import": "./dist/src/artifact.js",
+        "default": "./dist/src/artifact.js"
+      },
+      "./environment-variables": {
+        "types": "./dist/src/environment-variables.d.ts",
+        "import": "./dist/src/environment-variables.js",
+        "default": "./dist/src/environment-variables.js"
+      },
+      "./file-tree": {
+        "types": "./dist/src/file-tree.d.ts",
+        "import": "./dist/src/file-tree.js",
+        "default": "./dist/src/file-tree.js"
+      },
+      "./package-info": {
+        "types": "./dist/src/package-info.d.ts",
+        "import": "./dist/src/package-info.js",
+        "default": "./dist/src/package-info.js"
+      },
+      "./schema-display": {
+        "types": "./dist/src/schema-display.d.ts",
+        "import": "./dist/src/schema-display.js",
+        "default": "./dist/src/schema-display.js"
+      },
+      "./snippet": {
+        "types": "./dist/src/snippet.d.ts",
+        "import": "./dist/src/snippet.js",
+        "default": "./dist/src/snippet.js"
+      },
+      "./stack-trace": {
+        "types": "./dist/src/stack-trace.d.ts",
+        "import": "./dist/src/stack-trace.js",
+        "default": "./dist/src/stack-trace.js"
+      },
+      "./terminal": {
+        "types": "./dist/src/terminal.d.ts",
+        "import": "./dist/src/terminal.js",
+        "default": "./dist/src/terminal.js"
+      },
+      "./test-results": {
+        "types": "./dist/src/test-results.d.ts",
+        "import": "./dist/src/test-results.js",
+        "default": "./dist/src/test-results.js"
+      },
+      "./audio-player": {
+        "types": "./dist/src/audio-player.d.ts",
+        "import": "./dist/src/audio-player.js",
+        "default": "./dist/src/audio-player.js"
+      },
+      "./transcription": {
+        "types": "./dist/src/transcription.d.ts",
+        "import": "./dist/src/transcription.js",
+        "default": "./dist/src/transcription.js"
+      },
+      "./voice-selector": {
+        "types": "./dist/src/voice-selector.d.ts",
+        "import": "./dist/src/voice-selector.js",
+        "default": "./dist/src/voice-selector.js"
+      },
+      "./sandbox": {
+        "types": "./dist/src/sandbox.d.ts",
+        "import": "./dist/src/sandbox.js",
+        "default": "./dist/src/sandbox.js"
+      },
+      "./commit": {
+        "types": "./dist/src/commit.d.ts",
+        "import": "./dist/src/commit.js",
+        "default": "./dist/src/commit.js"
+      },
+      "./streaming-text": {
+        "types": "./dist/src/streaming-text.d.ts",
+        "import": "./dist/src/streaming-text.js",
+        "default": "./dist/src/streaming-text.js"
+      },
+      "./message-error": {
+        "types": "./dist/src/message-error.d.ts",
+        "import": "./dist/src/message-error.js",
+        "default": "./dist/src/message-error.js"
+      },
+      "./message-queue": {
+        "types": "./dist/src/message-queue.d.ts",
+        "import": "./dist/src/message-queue.js",
+        "default": "./dist/src/message-queue.js"
+      },
+      "./edit-message": {
+        "types": "./dist/src/edit-message.d.ts",
+        "import": "./dist/src/edit-message.js",
+        "default": "./dist/src/edit-message.js"
+      },
+      "./feedback-dialog": {
+        "types": "./dist/src/feedback-dialog.d.ts",
+        "import": "./dist/src/feedback-dialog.js",
+        "default": "./dist/src/feedback-dialog.js"
+      },
+      "./stopped-run": {
+        "types": "./dist/src/stopped-run.d.ts",
+        "import": "./dist/src/stopped-run.js",
+        "default": "./dist/src/stopped-run.js"
+      },
+      "./code-diff": {
+        "types": "./dist/src/code-diff.d.ts",
+        "import": "./dist/src/code-diff.js",
+        "default": "./dist/src/code-diff.js"
+      },
+      "./tool-timeline": {
+        "types": "./dist/src/tool-timeline.d.ts",
+        "import": "./dist/src/tool-timeline.js",
+        "default": "./dist/src/tool-timeline.js"
+      },
+      "./code-runner": {
+        "types": "./dist/src/code-runner.d.ts",
+        "import": "./dist/src/code-runner.js",
+        "default": "./dist/src/code-runner.js"
+      },
+      "./computer-use": {
+        "types": "./dist/src/computer-use.d.ts",
+        "import": "./dist/src/computer-use.js",
+        "default": "./dist/src/computer-use.js"
+      },
+      "./permission-grant": {
+        "types": "./dist/src/permission-grant.d.ts",
+        "import": "./dist/src/permission-grant.js",
+        "default": "./dist/src/permission-grant.js"
+      },
+      "./guardrail-notice": {
+        "types": "./dist/src/guardrail-notice.d.ts",
+        "import": "./dist/src/guardrail-notice.js",
+        "default": "./dist/src/guardrail-notice.js"
+      },
+      "./elicitation-form": {
+        "types": "./dist/src/elicitation-form.d.ts",
+        "import": "./dist/src/elicitation-form.js",
+        "default": "./dist/src/elicitation-form.js"
+      },
+      "./web-search": {
+        "types": "./dist/src/web-search.d.ts",
+        "import": "./dist/src/web-search.js",
+        "default": "./dist/src/web-search.js"
+      },
+      "./image-generation": {
+        "types": "./dist/src/image-generation.d.ts",
+        "import": "./dist/src/image-generation.js",
+        "default": "./dist/src/image-generation.js"
+      },
+      "./question": {
+        "types": "./dist/src/question.d.ts",
+        "import": "./dist/src/question.js",
+        "default": "./dist/src/question.js"
+      },
+      "./memory-chips": {
+        "types": "./dist/src/memory-chips.d.ts",
+        "import": "./dist/src/memory-chips.js",
+        "default": "./dist/src/memory-chips.js"
+      },
+      "./artifact-card": {
+        "types": "./dist/src/artifact-card.d.ts",
+        "import": "./dist/src/artifact-card.js",
+        "default": "./dist/src/artifact-card.js"
+      },
+      "./canvas": {
+        "types": "./dist/src/canvas.d.ts",
+        "import": "./dist/src/canvas.js",
+        "default": "./dist/src/canvas.js"
+      },
+      "./connection": {
+        "types": "./dist/src/connection.d.ts",
+        "import": "./dist/src/connection.js",
+        "default": "./dist/src/connection.js"
+      },
+      "./controls": {
+        "types": "./dist/src/controls.d.ts",
+        "import": "./dist/src/controls.js",
+        "default": "./dist/src/controls.js"
+      },
+      "./edge": {
+        "types": "./dist/src/edge.d.ts",
+        "import": "./dist/src/edge.js",
+        "default": "./dist/src/edge.js"
+      },
+      "./panel": {
+        "types": "./dist/src/panel.d.ts",
+        "import": "./dist/src/panel.js",
+        "default": "./dist/src/panel.js"
+      },
+      "./toolbar": {
+        "types": "./dist/src/toolbar.d.ts",
+        "import": "./dist/src/toolbar.js",
+        "default": "./dist/src/toolbar.js"
+      },
+      "./node": {
+        "types": "./dist/src/node.d.ts",
+        "import": "./dist/src/node.js",
+        "default": "./dist/src/node.js"
+      },
+      "./message-types": {
+        "types": "./dist/src/message-types.d.ts",
+        "import": "./dist/src/message-types.js",
+        "default": "./dist/src/message-types.js"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abworks-dev/aboard-ui.git",
+    "directory": "packages/ai-ui"
+  },
+  "homepage": "https://github.com/abworks-dev/aboard-ui#readme",
+  "bugs": {
+    "url": "https://github.com/abworks-dev/aboard-ui/issues"
+  }
+}

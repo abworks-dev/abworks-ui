@@ -1,0 +1,41 @@
+/* React Flow 12.10.0 presentation variables; geometry and interaction stay upstream-owned. */
+.react-flow.aui-graph {
+  --xy-background-color: var(--color-sidebar);
+  --xy-background-pattern-color: var(--color-border);
+  --xy-edge-stroke: var(--color-muted-foreground);
+  --xy-edge-stroke-selected: var(--color-ring);
+  --xy-connectionline-stroke: var(--color-ring);
+  --xy-node-color: var(--color-card-foreground);
+  --xy-node-background-color: var(--color-card);
+  --xy-node-border: 1px solid var(--color-border);
+  --xy-node-border-radius: var(--radius-md);
+  --xy-node-group-background-color: color-mix(in oklab, var(--color-muted) 25%, transparent);
+  --xy-node-boxshadow-hover: 0 0 0 1px var(--color-border);
+  --xy-node-boxshadow-selected: 0 0 0 1px var(--color-ring);
+  --xy-handle-background-color: var(--color-primary);
+  --xy-handle-border-color: var(--color-background);
+  --xy-selection-background-color: color-mix(in oklab, var(--color-primary) 8%, transparent);
+  --xy-selection-border: 1px dotted var(--color-ring);
+  --xy-controls-button-background-color: var(--color-card);
+  --xy-controls-button-background-color-hover: var(--color-secondary);
+  --xy-controls-button-color: var(--color-card-foreground);
+  --xy-controls-button-color-hover: var(--color-secondary-foreground);
+  --xy-controls-button-border-color: var(--color-border);
+  --xy-controls-box-shadow: none;
+  --xy-edge-label-background-color: var(--color-background);
+  --xy-edge-label-color: var(--color-foreground);
+  --xy-attribution-background-color: var(--color-card);
+  --xy-resize-background-color: var(--color-ring);
+}
+
+.react-flow.aui-graph .react-flow__attribution a {
+  color: var(--color-muted-foreground);
+}
+
+.react-flow.aui-graph .react-flow__edge.updating .react-flow__edge-path {
+  stroke: var(--color-ring);
+}
+
+.react-flow.aui-graph .react-flow__resize-control.handle {
+  border-color: var(--color-background);
+}

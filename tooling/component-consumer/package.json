@@ -1,0 +1,12 @@
+{
+  "name": "aboard-external-consumer-check",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "tsc --noEmit && node build.mjs" },
+  "dependencies": { "react": "19.2.8", "react-dom": "19.2.8" },
+  "devDependencies": {
+    "@types/react": "19.2.18", "@types/react-dom": "19.2.4",
+    "typescript": "6.0.3", "esbuild": "0.28.2",
+    "postcss": "8.5.26", "@tailwindcss/postcss": "4.3.3", "tailwindcss": "4.3.3", "tw-animate-css": "1.4.0"
+  }
+}

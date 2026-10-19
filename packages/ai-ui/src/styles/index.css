@@ -1,0 +1,22 @@
+/*
+ * Canonical @aboard/ai-ui stylesheet entry.
+ *
+ * AI surfaces consume semantic theme tokens from @aboard/ui; the only local
+ * rule below is a presentation animation, not a separate theme authority.
+ */
+@source '../';
+
+@media (prefers-reduced-motion: no-preference) {
+  .aui-artifact-shimmer {
+    background-image: linear-gradient(110deg, var(--color-muted-foreground) 35%, var(--color-foreground) 50%, var(--color-muted-foreground) 65%);
+    background-size: 200% 100%;
+    background-clip: text;
+    color: transparent;
+    animation: aui-artifact-shimmer 2s linear infinite;
+  }
+}
+
+@keyframes aui-artifact-shimmer {
+  from { background-position: 100% center; }
+  to { background-position: -100% center; }
+}

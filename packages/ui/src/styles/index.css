@@ -1,0 +1,14 @@
+/*
+ * Canonical @aboard/ui stylesheet entry.
+ *
+ * Importing this file loads the reviewed ReUI Nova base layer and registers the
+ * package's component sources with Tailwind, so a consumer stylesheet never has
+ * to reach into `packages/ui/src` with a relative path.
+ *
+ * Consumers still own the semantic theme tokens and the Nova scoping ancestor
+ * (`style-nova`); see apps/site/app/global.css and apps/workbench/styles/globals.css.
+ */
+@import './reui/style-nova.css' layer(base);
+
+@source '../core';
+@source '../data-table';
