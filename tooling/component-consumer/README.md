@@ -18,7 +18,7 @@ node tooling/component-consumer/verify.mjs "$PWD/.data/component-library/aboard-
 
 此模式显式将 AI UI 中按版本声明的 `@aboard/ui` 依赖覆盖为同一 UI 归档，因为两个包均尚未发布到 registry。覆盖不指向仓库源码。检查声明时不使用 `skipLibCheck`，包含可选 Canvas 声明图，并显式启用 Shiki `Symbol.dispose` 类型所需的 `ESNext.Disposable`。Node/JSON Schema/Mermaid 声明依赖归 AI UI 所有，不由此使用方手动安装。检查会对本地展示消息执行类型检查、生产打包和浏览器渲染，不依赖 Nexus contracts 或服务。AI UI 保留自己的上游许可声明。
 
-需要 Node 24、pnpm 11、仓库依赖，以及已为 Workbench 测试安装的 Playwright Chromium 浏览器。脚本保留外部目录以便检查，并报告路径；不会发布内容或修改 registry。安装声明依赖时可能需要网络访问。
+需要 Node 24、pnpm 11、仓库依赖，以及通过 `pnpm exec playwright install chromium` 安装的 Playwright Chromium 浏览器；不需要 Nexus/Workbench。脚本保留外部目录以便检查，并报告路径；不会发布内容或修改 registry。安装声明依赖时可能需要网络访问。
 
 检查范围：归档导出目标；UI 不含工作区/Nexus/AI 依赖；Bundler 与 NodeNext 两种模式下以 `skipLibCheck: false` 解析 root/core/data-table/testing barrel 声明；生产 JS 与 Tailwind CSS 构建；Button 状态；原生必填字段校验/提交；Dialog 的真实 body Portal；Base UI guard 重定向后的焦点约束；Escape/焦点恢复；Tooltip；以及包含 Portal 在内的浅色/深色语义颜色。
 
